@@ -1,0 +1,31 @@
+{
+  "name": "pimlab/website-settings",
+  "type": "pimcore-bundle",
+  "license": "GPL-3.0-or-later",
+  "description": "Pimcore 5 Website Settings Bundle - Website Settings installer",
+  "keywords": ["pimcore", "settings"],
+  "homepage": "https://github.com/PimLab/website-settings.git",
+  "authors": [
+    {
+      "name": "Pimlab.de - Felix Flor",
+      "email": "dev@pimlab.de",
+      "homepage": "https://pimlab.de",
+      "role": "Developer"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Pimlab\\WebsiteSettingsBundle\\": "src/"
+    }
+  },
+  "extra": {
+    "pimcore": {
+      "bundles": [
+        "Pimlab\\WebsiteSettingsBundle\\WebsiteSettingsBundle"
+      ]
+    }
+  },
+  "require": {
+    "pimcore/core-version": ">=5.4.0"
+  }
+}
