@@ -12,7 +12,7 @@ class WebsiteSettingsBundle extends AbstractPimcoreBundle{
 
     const PACKAGE_NAME = 'pimlab/website-settings';
 
-    const BUNDLE_VERSION = '1.0.0';
+    const BUNDLE_VERSION = '1.0.1';
 
     /**
      * @return object|\Pimcore\Extension\Bundle\Installer\InstallerInterface|null
