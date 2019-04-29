@@ -58,7 +58,7 @@ class Installer extends AbstractInstaller {
 
         $settings = $this->container->getParameter('website_settings.settings');
 
-        if (empty($setting))
+        if (empty($settings))
             return true;
 
         foreach ($settings as $name => $setting)
