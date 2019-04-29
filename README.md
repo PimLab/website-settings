@@ -16,7 +16,7 @@ If you add some new settings later, you can add them in all environments with sa
 ## Installation
 
 `````bash
-$ composer require pimlab pimlab/website-settings
+$ composer require pimlab/website-settings
 `````
 
 ## Usage
