@@ -1,6 +1,6 @@
 # Pimcore Website Settings Bundle
 
-Website Settings installer for Pimcore 5
+Website Settings installer for Pimcore 5 and Pimcore 6
 
 Often Pimcore Website-Settings are defined but has different value, depending on the system instance is running on and settings type.
 Additionally if you set up a new (development) environment the settings has set again because you can't add the data filled settings to
@@ -12,6 +12,7 @@ If you add some new settings later, you can add them in all environments with sa
 ## Requirements
 
 - Pimcore >= 5.4.0
+- Pimcore >= 6.0.0
 
 ## Installation
 
