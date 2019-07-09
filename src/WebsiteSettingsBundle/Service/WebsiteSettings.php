@@ -39,7 +39,7 @@ class WebsiteSettings {
      * @param ApplicationLogger $applicationLogger
      */
     public function __construct() {
-        $this->applicationLogger = ApplicationLogger::getInstance();
+        $this->applicationLogger = ApplicationLogger::getInstance('pimlab.website_settings');
         $this->validLanguages = Tool::getValidLanguages();
         $this->validSites = $this->getPimcoreSites();
     }
