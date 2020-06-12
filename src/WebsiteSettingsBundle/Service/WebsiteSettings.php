@@ -54,9 +54,9 @@ class WebsiteSettings {
 
         $ws = WebsiteSetting::getByName($name, $siteId, $lang);
 
-        if(is_null($ws))
+        if($ws === null){
             return false;
-
+        }
         return true;
 
     }
