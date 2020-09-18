@@ -21,7 +21,7 @@
   "extra": {
     "pimcore": {
       "bundles": [
-        "Pimlab\\WebsiteSettingsBundle\\WebsiteSettingsBundle"
+        "Pimlab\\WebsiteSettingsBundle"
       ]
     }
   },
